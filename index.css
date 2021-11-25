@@ -84,7 +84,7 @@
     background-color: #343a40;
 }
 
-#productos .row small,h2 {
+#productos .row h4,p {
     color: white;
 }
 
@@ -109,7 +109,7 @@
 }
 
 #footer {
-    background: linear-gradient(rgb(0, 0, 85), rgb(2, 2, 43));
+    background: linear-gradient(rgb(0, 0, 58), rgb(0, 0, 32));
 }
 
 #footer .container {
