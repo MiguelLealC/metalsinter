@@ -74,13 +74,6 @@
 	max-width: 100%;
 }
 
-
-#productos {
-    justify-content: center;
-	background-color: #343a40;
-	color: black;
-}
-
 #place-time img {
 	max-width: 100%;
 }
@@ -88,6 +81,7 @@
 #productos {
     justify-content: center;
     align-items: center;
+    background-color: #343a40;
 }
 
 #productos .row small,h2 {
@@ -95,8 +89,11 @@
 }
 
 .row {
+    margin: 0;
     justify-content: center;
     align-items: center;
+    padding: 10px 20px;
+    text-align: justify;
 }
 
 .card img {
@@ -119,4 +116,8 @@
     padding: 2%;
     font-size: 14px;
     color: white;
+}
+
+#historia {
+    text-align: justify;
 }
