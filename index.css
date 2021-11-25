@@ -84,7 +84,7 @@
     background-color: #343a40;
 }
 
-#productos .row h4,p {
+#productos .row-principal h2,small {
     color: white;
 }
 
