@@ -6,30 +6,31 @@
     <title>Metal Sinter</title>
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="50">
-    <main>
-        <form action="">
+    <main class="enviar">
+        <form action="enviar.php" method="post">
             <label for="nombre">
                 <span>¿Cual es tu nombre?</span>
-                <input type="text" name="nombre" id="nombre" autocomplete="name">
+                <input type="text" name="name" id="name" class="name" placeholder="Nombre" autocomplete="name" required>
             </label>
 
             <label for="correo">
                 <span>Correo</span>
-                <input type="email" name="correo" id="correo" autocomplete="email">
+                <input type="email" name="mail" id="mail" class="email" placeholder="Email" autocomplete="email" required>
+            </label>
+
+            <label for="telefono">
+                <span>Telefono</span>
+                <input type="number" name="phone" id="subject" class="subject" placeholder="Numero de telefono" autocomplete="phone" required>
             </label>
 
             <label for="asunto">
                 <span>Asunto</span>
-                <input type="text" name="asunto" id="asunto" autocomplete="asunto">
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto" autocomplete="asunto" required>
             </label>
 
-            <label for="descripcion">
-                <span>Descripcion</span>
-                <input type="text" name="descripcion" id="descripcion" autocomplete="description">
-            </label>
-            <input type="submit">
+            <textarea name="message" id="message" class="message" placeholder="Mensaje ..." cols="30" rows="10"></textarea>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
-        <button class="button"><a href="./index.html">Inicio</a></button>
     </main>
 </body>
 </html>
