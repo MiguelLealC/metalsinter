@@ -109,11 +109,13 @@
 }
 
 .ubicacion {
+    margin: 0;
     justify-content: center;
     align-items: center;
 }
 
 .ubicacion iframe {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-content: center;
