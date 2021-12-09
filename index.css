@@ -108,6 +108,16 @@
     display: flex;
 }
 
+.ubicacion {
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion iframe {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 #footer {
     background: linear-gradient(rgb(0, 0, 58), rgb(0, 0, 32));
 }
