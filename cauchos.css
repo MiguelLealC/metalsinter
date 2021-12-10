@@ -116,3 +116,27 @@
 #historia {
     text-align: justify;
 }
+
+.whatsapp {
+    display: none;
+}
+
+@media only screen and (max-width: 760px){
+    .whatsapp {
+        display: block;
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+}
+  
+.whatsapp-icon {
+    margin-top:13px;
+}
