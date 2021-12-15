@@ -88,6 +88,36 @@
     color: white;
 }
 
+#sinterizado {
+    background-color: #343a40;
+    color: white
+}
+
+#sinterizado .container h3 {
+    text-align: center;
+}
+
+#sinterizado .card-title {
+    color: black;
+}
+
+#sinterizado img {
+    height: 210px;
+}
+
+#repuestos {
+    background-color: #343a40;
+    color: white;
+}
+
+#repuestos .card-title {
+    color: black;
+}
+
+#repuestos img {
+    height: 210px;
+}
+
 .row {
     margin: 0;
     justify-content: center;
