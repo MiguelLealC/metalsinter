@@ -100,30 +100,35 @@
         contactform.setAttribute('action', '//formspree.io/' + 'f/' + 'moqrqjjl');
     </script>
     -->
-    <main class="enviar">
+    <div class="enviar">
         <form action="enviar.php" method='POST'>
-            <label for="nombre">
-                <span>¿Cual es tu nombre?</span>
-                <input type="text" name="name" id="name" class="name" placeholder="Nombre" autocomplete="name" required>
-            </label>
+          <div class="form-floating mb-2">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Nombres">
+            <label for="name">Nombre</label>
+          </div>
 
-            <label for="correo">
-                <span>Correo</span>
-                <input type="email" name="mail" id="mail" class="email" placeholder="Email" autocomplete="email" required>
-            </label>
+          <div class="form-floating mb-2">
+            <input type="email" class="form-control" name="mail" id="mail" placeholder="Email" autocomplete="email" required>
+            <label for="mail">Correo</label>
+          </div>
 
-            <label for="telefono">
-                <span>Telefono</span>
-                <input type="number" name="phone" id="subject" class="subject" placeholder="Numero de telefono" autocomplete="phone" required>
-            </label>
+          <div class="form-floating mb-2">
+            <input type="number" class="form-control" name="phone" id="phone" placeholder="Numero de telefono" autocomplete="phone" required>
+            <label for="phone">Telefono</label>
+          </div>
 
-            <label for="asunto">
-                <span>Asunto</span>
-                <input type="text" name="asunto" id="asunto" placeholder="Asunto" autocomplete="asunto" required>
-            </label>
+          <div class="form-floating mb-2">
+            <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" autocomplete="asunto" required>
+            <label for="asunto">Asunto</label>
+          </div>
+            
+          <div class="form-floating mb-2">
+            <textarea name="message" id="message" class="form-control" placeholder="Mensaje ..." cols="30" rows="10"></textarea>
+            <label for="message">Mensaje ...</label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Enviar</button>
 
-            <textarea name="message" id="message" class="message" placeholder="Mensaje ..." cols="30" rows="10"></textarea>
-            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </main>
 

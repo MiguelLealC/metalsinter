@@ -39,6 +39,17 @@ form {
     font-size: 18px;
 }
 
+.form-control {
+    display: block;
+    margin: 10px;
+    width: 80%;
+}
+
+.form-control label {
+    justify-content: center;
+    font-size: 28px;
+}
+
 #footer {
     background: linear-gradient(rgb(0, 0, 58), rgb(0, 0, 32));
 }
